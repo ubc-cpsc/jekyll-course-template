@@ -1,0 +1,80 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. 
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Basic Settings -----------------------------
+# Please make sure that you review all the basic settings, and update if needed.
+
+title: CPSC 101
+unit: Computer Science
+course_account: cs-101
+course_name: CPSC 101
+
+description: ""
+
+baseurl: "/~cs-101/2024W1" # the subpath of your site, e.g. /blog
+# baseurl: "/~{{ course_account }}/<YEAR><TERM>"
+
+# Advanced Settings -----------------------------
+# Do not edit beyond this point unless you want to modify the course template beyond the
+# basic settings.
+
+url: "https://www.students.cs.ubc.ca" # the base hostname & protocol for your site, e.g. http://example.com
+
+lang: "en"
+
+collections:
+  lectures:
+  assignments:
+  tutorials:
+    output: true
+    permalink: /tutorials/:name:output_ext
+
+# default is UBC CLF theme
+theme: jekyll-clf-theme
+
+nav:
+  - name: Home
+    link: "/"
+  - name: Lectures 
+    link: "/lectures.html"
+  - name: Assignments 
+    link: "/assignments.html"
+  - name: Tutorials
+    link: "/tutorials.html"
+
+plugins:
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
