@@ -47,7 +47,7 @@ Add:
 - description
 - link
 
-You can see [_lectures/lecture_1.md](_lectures/lecture_1.md) as an example. Rebuild the site and the information will be added to the lectures page.
+You can see [_lectures/lecture_1.md](_lectures/lecture_1.md?plain=1) as an example. Rebuild the site and the information will be added to the lectures page.
 
 ### Adding Assignments
 
@@ -59,4 +59,4 @@ Repeat the same steps with _tutorials, plus add material outside of the front ma
 
 This will also create a page at `/tutorials/<tutorial_name>.html`
 
-You can see [_tutorials/tutorial-1.md](_tutorials/tutorial-1.md) as an example.
+You can see [_tutorials/tutorial-1.md](_tutorials/tutorial-1.md?plain=1) as an example.
