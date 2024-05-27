@@ -30,7 +30,33 @@ More on deploying Jekyll websites [here](https://jekyllrb.com/docs/deployment/).
 
 ## Adding to Your Course
 
+We use Jekyll [Collections](https://jekyllrb.com/docs/collections/) to make adding to the course simple.
 There are 3 items you can add:
 1) Lectures
 2) Assignments
 3) Tutorials
+
+You can also always add your own custom pages in html, or markdown. For more information see the [Jekyll Docs](https://jekyllrb.com/docs/step-by-step/).
+
+### Adding Lecutres
+
+Create a markdown file in the `_lectures` folder
+
+Add:
+- name
+- description
+- link
+
+You can see [_lectures/lecture_1.md](_lectures/lecture_1.md) as an example. Rebuild the site and the information will be added to the lectures page.
+
+### Adding Assignments
+
+Repeat the same steps with _assignments.
+
+### Adding Tutorials
+
+Repeat the same steps with _tutorials, plus add material outside of the front matter
+
+This will also create a page at `/tutorials/<tutorial_name>.html`
+
+You can see [_tutorials/tutorial-1.md](_tutorials/tutorial-1.md) as an example.
