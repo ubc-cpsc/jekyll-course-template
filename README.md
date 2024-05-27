@@ -38,7 +38,7 @@ There are 3 items you can add:
 
 You can also always add your own custom pages in html, or markdown. For more information see the [Jekyll Docs](https://jekyllrb.com/docs/step-by-step/).
 
-### Adding Lecutres
+### Adding Lectures
 
 Create a markdown file in the `_lectures` folder
 
