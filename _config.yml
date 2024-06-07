@@ -23,14 +23,14 @@ course_name: CPSC 101
 
 description: ""
 
-baseurl: "/~cs-101/2024W1" # the subpath of your site, e.g. /blog
+baseurl: "/local/course-template" # the subpath of your site, e.g. /blog
 # baseurl: "/~{{ course_account }}/<YEAR><TERM>"
 
 # Advanced Settings -----------------------------
 # Do not edit beyond this point unless you want to modify the course template beyond the
 # basic settings.
 
-url: "https://www.students.cs.ubc.ca" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.cs.ubc.ca" # the base hostname & protocol for your site, e.g. http://example.com
 
 lang: "en"
 
