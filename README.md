@@ -6,7 +6,7 @@
 
 ## Intro
 
-This is a [Jekyll](https://jekyllrb.com/) template intended to be used as a starting point for creating a course website with the [UBC CLF Jekyll Theme](https://github.com/ubc-cpsc/jekyll-clf-theme) in the UBC CS webspace. You can see a working demo here: TO DO
+This is a [Jekyll](https://jekyllrb.com/) template intended to be used as a starting point for creating a course website with the [UBC CLF Jekyll Theme](https://github.com/ubc-cpsc/jekyll-clf-theme) in the UBC CS webspace. [You can see a working demo here](https://www.cs.ubc.ca/local/course-template/)
 
 ## Quickstart
 
