@@ -2,6 +2,8 @@
 
 - [Intro](#intro)
 - [Quickstart](#quickstart)
+  - [Local Testing](#local-testing)
+  - [Deployment](#deployment)
 - [Adding to Your Course](#adding-to-your-course)
 
 ## Intro
@@ -12,14 +14,16 @@ This is a [Jekyll](https://jekyllrb.com/) template intended to be used as a star
 
 ### Local Testing
 
-Requirements: All the [Jekyll requirements](https://jekyllrb.com/docs/installation/#requirements)
+Requirements:
+- All the [Jekyll requirements](https://jekyllrb.com/docs/installation/#requirements)
 
+Enter the following commands in your favourite terminal:
 ```
 git clone git@github.com:ubc-cpsc/jekyll-course-template.git # clone this repo
 cd jekyll-course-template
 bundle config set --local path 'vendor/bundle' #
 bundle install # install the gems from the Gemfile
-bundle jekyll exec serve # 
+bundle exec jekyll serve # build the site and make it available on the local server
 ```
 
 ### Deployment
