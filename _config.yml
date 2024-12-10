@@ -16,13 +16,13 @@
 # Basic Settings -----------------------------
 # Please make sure that you review all the basic settings, and update if needed.
 
-title: CPSC 101
+title: CPSC 436C
 unit: Computer Science
-course_name: CPSC 101
+course_name: CPSC 436C
 
 description: ""
 
-baseurl: "/~cs-101/2024W1" # the subpath of your site, e.g. /blog
+baseurl: "/~cs-436c/2024WT1" # the subpath of your site, e.g. /blog
 # baseurl: "/~{{ course_account }}/<YEAR><TERM>"
 
 # Advanced Settings -----------------------------
